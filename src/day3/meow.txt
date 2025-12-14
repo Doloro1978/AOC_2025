@@ -1,0 +1,12 @@
+[2,3,1,5,3,5,3,2,5,7,6,5]
+we need to go through every number and collect all numbers needed to make the biggest 4 digit number.
+
+- look at the first number add it to the buffer [2,...]
+- look at the next number, is it bigger then any number behind it?, yes, is it with the 4 digit range...
+(if we replace the number and scrap all numbers ahead of it, will we have enough to make a full 4 digit number), yes...
+then replace it [3,...]
+- look at the next number, is it bigger the any number behind it?, no, just add it to the buffer [3,1,...]
+
+let say the index is = 8 and the len is 10 and we need a min of 4, (10 - 8) - 4
+
+if
